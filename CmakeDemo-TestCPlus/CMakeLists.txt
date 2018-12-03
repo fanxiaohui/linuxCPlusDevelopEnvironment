@@ -31,7 +31,14 @@ ENDIF (UNIX)
 #安装脚本
 INSTALL(PROGRAMS run.sh DESTINATION ${PROJECT_BINARY_DIR}/bindir)
 
-#ADD_SUBDIRECTORY(DOC doc)
+#ADD_SUBDIRECTORY 配置项详解
+#指定中间二进制和目标二进制存放的位置。
+#如果不进行 bin 目录的指定，那么编译结果(包括中间结果)都将存放在build/src 
+#目录(这个目录跟原有的 src 目录对应)，
+#指定 bin 目录后，相当于在编译时将 src 重命名为 
+#bin，所有的中间结果和目标二进制都将存放在 bin 目录
+
+
 
 #由于我们使用CMake软件指定外部构建的 build 路径了
 #因此下面的makefile 生成文件的目录 libout binout 目录 是相对于
