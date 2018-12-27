@@ -12,6 +12,14 @@ void get_restr(char  *str, size_t len)  ;
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
+    /*
+     
+     用户 让测试 2222 这里都要将 字符串写到内存 将字节数组  二进制序列
+     对这些二进制序列 可以先写成16进制
+     （二进制 转换为  16进制）
+     然后 把这个16进制字符串 输入到我们的程序中 就是我们想要的对应的结果
+     
+     */
     
     if (argc<2) {
         printf("请输入要转码的16进制字符串\n");
