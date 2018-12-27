@@ -1,0 +1,127 @@
+Want to be a programmer! Where to start?
+
+Quite often I hear (read) someone who wants to become a programmer and asks where to start. Often, not always, they ask what programming language they should learn first. Sometimes they have decided for a language and they ask what operating system, tools and perhaps online services they should use. Sometimes the understanding of programming in particular and computers in general is vague.
+
+The fascinating thing is that such questions can receive very different answers. Different working programmers have completely different ideas on how to become a programmer. Completely.
+
+The most important thing
+If you find a way to work with computers and code that keeps you entertained and thrilled, and you spend hours and days feeling curious and enthusiastic, this is a good way for you to learn! A way of learning that works perfectly for someone else, but does not make you enthusiastic at all, will probably not work well for you. Hard work and difficult things are a lot easier if it is fun and it makes sense to you!
+
+A reading advice
+When you read the rest of this text don’t stop if there is a word you don’t understand! For being a text written for beginners the text is full of words (interpreter, service, syntax and so on) that you may not be familiar with – at least not in this context. Ignore it and just read on. You can later find the meaning (in the context of computers and programming) of those words on wikipedia.
+
+The programming ecosystem
+Lets say that programming is the act of making computers do stuff for people.
+
+There is a stack of expertise involved in delivering a service or a product:
+
+Computer science: data structures, algorithms, information theory
+Coding: reading and writing code, thinking like a computer, getting it right
+Programming language: syntax, keywords and tools specific to a programming language
+Libraries and frameworks: code you can reuse to do more with writing less code
+The Internet: networking, protocols, formats, security, how it all works
+Development environment: your computer, its OS, and the tools you use to code
+Production environment: where your code runs, if it is some kind of service
+Deployment, test, lifecycle: how to continuously release new versions
+Data modelling: how to turn real world information into processable computer data
+Requirement analysis: understanding your customer and the market
+Team work: different people have different skill sets and work together
+Obviously you are not going to have the same high expertise in each of the above areas. Perhaps you have a lot of passion for some things while you are completely uninterested in other things. That is fine.
+
+There is a bit of a catch 22 here. When you already have knowledge you can get involved in a project or company, and work with just a few (or all) of the things above. But when you are a beginner, all those fields of knowledge are quite abstract and useless on their own. So to produce anything that is fun or slightly meaningful you want to work with the entire list, which is obviously kind of impossible (as a beginner). So, it helps to be persistent, to like reading and details, and have quite low expectations on what is fun and meaningful!
+
+Programming is enormously rewarding for the brain. You set out to create something, you work on it, and it works. You get dopamine! You need to find a way to work and learn so you get rewarded often. It depends on your grit, but you should usually feel rewarded and experience success several times per day, both when learning and working.
+
+So when learning to code, you need to find small contained projects that are simple and interesting enough to allow you to succeed and feel successful.
+
+A common advice from programmers is often to try different programming languages. I am not so sure about it. I think what is also very important is to iterate often and fast from idea to “product”. With time, ideas will be bigger and more complex. To do that, it makes sense to master a language, the tools and the ecosystem, rather than just learning more of them.
+
+I will discuss a few platforms from a beginners perspective.
+
+Arduino
+You can buy an Arduino start kit. It comes with everything you need (except a computer, Mac, Windows, Linux does not matter). It comes with a book with projects that take a few hours to complete. No previous knowledge is required, the Arduino is designed for non programmers (children, artists) to create stuff. When you have completed the projects you can modify them and experiment. When you do this you will learn to write the code needed to achieve what you want.
+
+The Arduino is a very self-contained ecosystem where you can iterate quickly. The code you will write is very basic C-code (actually C++). But you don’t need to know that or think about it.
+
+Later when you want to write other code, not just for Arduino, most everything you have learnt on the Arduino is useful. But more complex ecosystems have many more aspects to consider.
+
+Hackerrank.com
+There are many such sites, but Hackerrank is the one I have experience with.
+
+Hackerrank offers a wide range of “problems” to solve online in (almost) any programming language you want. It is free, requires nothing to be installed or configured on your computer, and you get (for training purposes) relevant, well defined problems and a contained environment to work with them.
+
+Hackerrank is great to learn new languages, datastructures and algorithms. You will need a reference or language tutorial elsewhere (but for relevant languages you can find it online). There are things you will not learn on Hackerrank: how to configure your own system, more advanced tools, code that interacts with the user, filesystem or network, and error handling. But it is quite fine to master a language and algorithms first.
+
+iOS
+I have no experience with iOS (or macOS) development. But if you have a Mac, an iOS device (iPhone or iPad) and you get a beginners book, you have everything you need to make real iOS apps that you can sell for money.
+
+Apple also have a Swift Playground app for iPad (Swift is the preferred programming language of iOS).
+
+It seems like a good idea to me to learn to iterate from idea to working App in such a contained (and, for good and bad: walled, protected, restricted and designed) ecosystem.
+
+Swift may not be the most useful language outside the Apple world. But it is a modern language that have everything in common with other common languages (such as Java, C#, Rust, Python).
+
+Automation with the shell
+If your objective is to automate server configuration/operation/maintenance look at bash for Linux and Powershell for Windows. Don’t expect to become a “real” programmer, but it is the way to get your problems solved. Be sure to be aware of the commands/utilities available in your environment (use sort/grep instead of implementing similar functionality in bash).
+
+Python
+Python is a very good language to learn. It is a simple, clean, well documented, widely used language that works equally well in macOS, Linux and Windows.
+
+Python is suitable for simple and advanced mathematical applications and simulations. It is suitable for parsing, processing and outputting data and to interface with databases: automation and integration.
+
+Web
+The web is generally a difficult ecosystem for a beginner. The problem is that many things come into play. Lets say we want to write a simple shopping list. Typically you need to deal with a database to store data, backend code for APIs (with authentication/security), http for transporting data and html+css+javascript for the applications itself. Also, you need to think about hosting and domain registration. You end up with several programming languages (for example SQL, PHP and JavaScript) even for a simple application. Not only is the web browser (http+html+css+javascript) a quite cumbersome programming environment, you also need to consider different web browsers.
+
+Nevertheless, the web is probably the most relevant ecosystem to develop applications for! But perhaps you should not learn programming by coding for the web.
+
+Web: WordPress
+If you need to deliver websites in the form of a blog (like a little newspaper) or perhaps a little webshop, WordPress can be amazing!
+
+Note that WordPress is based on LAMP (Linux, Apache, MySQL and PHP) which is a rather complex mess. But if you can ignore that (find a hosted solution, or just follow instructions without thinking and questioning too much) WordPress can be very productive. You will learn PHP and JavaScript as you need to do more advanced things. These are perhaps the worst two languages out there for the purpose of learning programming, but perhaps the most productive languages when it comes to delivering content and features.
+
+Web: Node.js
+You can build web applications with Node.js. The advantage is that you can use JavaScript both on the server and in the web browser and keep your toolbox smaller. However, it is very possible to grow your toolbox enormously with npm (the package manager for Node.js). I don’t think Node.js-based web applications, or JavaScript, are suitable for beginners. But if you are a beginner and you want to program web applications, it is probably your best choice.
+
+Desktop
+Perhaps 20 years ago, programming was much about building desktop applications (programs with a graphic user interface running in Windows, macOS or Linux). This is, I would say, quite a niche field in programming nowadays (more commonly, programmers develop applications for iOS/Android, for the web, or server code for internal use).
+
+Games are obviously a significant part of Desktop programs.
+
+Desktop is quite complex and qualified programming. If you want to do it for macOS only, get a Mac with Xcode and get a beginners book. If you want to write platform independent desktop applications (Linux + macOS + Windows) have a look at QT (which is, kind of, C++, and very nice). For Windows only, ask someone else.
+
+If this is what you want to do, look att Hackerrank above, and stick to C, Swift (for macOS) or C# (for Windows), to first learn the fundamentals of programming. When you know more, go on experimenting with the desktop.
+
+Android
+I don’t know what is the best way for a beginner to program for Android. I would say, start coding for iOS to learn “mobile” (and you reach an equally big audience/market with iOS). When you are a proficient iOS developer, I think picking up Android is no big deal.
+
+Very simple games
+If you want to develop very simple (retro) games, have a look at PICO-8. It is a (non-free) programming environment for building simple games for a virtual game console. These games can be deployed to and played in a web browser or most computers.
+
+The language is Lua – a very simple language that is useful for other purpose
+
+Deep knowledge – computers and systems
+If you want to understand computers, operating systems, security and the internet: learn C (not C++, not C#, not Objective-C, just C). To learn, I suggest you get some tutorial (like the book: Learn C the hard way). Make sure to know C99 (C is standardised – learn that and use it consistently)! I suggest you start with exercises or problems on Hackerrank (or a similar site or tutorial) until you get rather comfortable writing C.
+
+All major operating systems are written in C, as are a lot of the infrastructure that operates the internet. C is “unsafe” and the cause for many security issues in computer systems. This means that to understand the nature of these problems it really helps to know C. Many other languages (or strictly, their runtime/interpreter) are themselves written in C. They need to be, to talk to the operating system (which they need to do most anything). C is not going away and it is fundamental to most every computer we see.
+
+C++ is technically a superset of C (that is C with more features – and a few exceptions). So it can appear C++ is better. But it is two languages with very different “style”. You should solve problems very differently in them. C++ has merits of its own, but for the purpose of deep understanding of computers and operating systems, go for C. C# is a language that mostly resembles Java. Objective-C is also technically a superset of C, but it is a rarely used language that you most likely can ignore.
+
+To go even deeper you can learn Assembly language. Most likely it makes no sense for you to do it. At least not in the beginning of your learning.
+
+Deep knowledge – math and computer science
+If you are fascinated with math and you like an academic approach to things you can look into functional programming. This is where programming gets beautiful – if you have sensitivity for that kind of aesthetics. But it is not where you solve most practical problems.
+
+Haskell is for purists. LISP mixes pragmatism with myth. But many modern programming languages (for example Java, Swift, Rust, JavaScript, C++, C#) incorporates practical aspects of functional programming.
+
+LISP (Common LISP to be precise) has very capable built in support for math (fractions, complex numbers, arbitrary large numbers). If you are a mathematician you may find most other languages unsatisfying.
+
+While C more than anything else focuses on making a computer do exactly WHAT you instruct (program) it to do, functional languages are more like programming with mathematical definitions (functions).
+
+Conclusions
+When you know programming in general, you understand how the internet and a computer works, you are familiar with established standards and you know a few programming languages, it is pretty easy to learn new languages and tools.
+
+So what language you learn first matters not so much. What matters is that you learn to go from idea to product, and that you know how to do things properly (write clean, efficient, effective, secure and correct code).
+
+To do that, you more than anything else need to work with things that you find challenging, interesting and fun.
+
+Programming is so much more than programming languages: it is about attention to details, understanding the real world, understanding people, making beautiful things, keeping things simple and trying often and failing fast.

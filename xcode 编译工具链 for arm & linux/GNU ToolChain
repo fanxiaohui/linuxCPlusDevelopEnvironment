@@ -1,0 +1,41 @@
+GNU ToolChain
+
+1、linux  内核
+https://www.kernel.org
+
+2、这个arm的Arm Cortex-M 开发版  编译工具 支持macosx
+
+GNU Arm Embedded Toolchain
+
+Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors
+The GNU Arm Embedded toolchains are integrated and validated packages featuring the Arm Embedded GCC compiler, libraries and other GNU tools necessary for bare-metal software development on devices based on the Arm Cortex-M and Cortex-R processors. The toolchains are available for cross-compilation on Microsoft Windows, Linux and Mac OS X host operating systems.
+
+编译链
+
+https://developer.arm.com/open-source
+
+
+3、FreeBSD
+https://www.freebsd.org
+
+4、linux4.2
+https://www.kernel.org
+
+
+5、一个不错的技术网站
+TechFindings
+https://techfindings.one/archives/3266
+
+6、Hackerrank.com
+Hackerrank.com
+
+7、一个做LoraWan的工程师博客 歪果仁
+http://mehmetalierturk.com/tag/mac-os-x/
+
+
+8、gcc-arm-none-eabi-8-2018-q4-major
+
+https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-mac.tar.bz2
+
+
+
