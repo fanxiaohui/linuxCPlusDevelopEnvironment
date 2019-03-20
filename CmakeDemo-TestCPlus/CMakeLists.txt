@@ -10,7 +10,7 @@ PROJECT(HELLO)
 
 #设定前缀默认安装目录
 
-SET(CMAKE_INSTALL_PREFIX ~/Desktop/TestCPlus/TempPrefix) 
+SET(CMAKE_INSTALL_PREFIX ~Desktop/mac-build/Watch_DOG/obj) 
 
 # 打印相关消息消息
 
@@ -46,16 +46,18 @@ INSTALL(PROGRAMS run.sh DESTINATION ${PROJECT_BINARY_DIR}/bindir)
 
 #这里我们修改了默认Cmake的 library生成的makefile 目录 lib 改为 libout
 #这里 并不是指定生成的 最终lib 库 .a  等文件最终的生成目录
+#所对应的工程依赖库在项目工程的结构中的目录为LIB 最后编译后
 
 ADD_SUBDIRECTORY(LIB libout)
 
-#这里我们修改了默认Cmake的 bin生成的makefile 目录 lib 改为 libout
+
 #这里 并不是指定生成的 最终hellobin 可执行文件的最终的生成目录
+#所对应的工程源码在项目工程的结构中的目录为SRC 最后编译后
 
-ADD_SUBDIRECTORY(SRC binout)
+ADD_SUBDIRECTORY(SRC binout) 
 
 
-#设置输出项目工程文档
+#设置输出项目工程文档 所对应的工程相关文档在项目工程的结构中的目录为DOC
 
 ADD_SUBDIRECTORY(DOC docout)
 
